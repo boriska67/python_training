@@ -4,8 +4,11 @@ import unittest
 import time
 import json
 from selenium import webdriver
+# from selenium.webdriver.firefox.webdriver import WebDriver
+from selenium.webdriver.chrome.webdriver import WebDriver
+# from selenium.webdriver.ie.webdriver import WebDriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
+# from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
@@ -14,35 +17,49 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 class TestCreategitbranch(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        self.wd = WebDriver()
+        self.wd.implicitly_wait(60)
 
     def test_creategitbranch(self):
-        self.driver.get("https://github.com/")
-        self.driver.set_window_size(1936, 1066)
-        self.driver.find_element(By.LINK_TEXT, "Sign in").click()
-        self.driver.find_element(By.ID, "login_field").send_keys("boriska67")
-        self.driver.find_element(By.ID, "password").click()
-        self.driver.find_element(By.ID, "password").send_keys("Tashkent@67")
-        self.driver.find_element(By.NAME, "commit").click()
-        self.driver.find_element(By.CSS_SELECTOR,
-                                 "#dashboard-repos-container > #repos-container .source .d-inline-flex").click()
-        element = self.driver.find_element(By.CSS_SELECTOR, ".link-gray-dark > .octicon-git-branch")
-        # actions = ActionChains(self.driver)
-        # actions.move_to_element(element).perform()
-        time.sleep(1)
-        self.driver.find_element(By.CSS_SELECTOR, "#branch-select-menu > .btn").click()
-        time.sleep(1)
-        self.driver.find_element(By.ID, "context-commitish-filter-field").click()
-        time.sleep(1)
-        self.driver.find_element(By.ID, "context-commitish-filter-field").send_keys("new")
-        time.sleep(1)
-        self.driver.find_element(By.ID, "context-commitish-filter-field").send_keys(Keys.ENTER)
-        self.driver.find_element(By.CSS_SELECTOR, ".js-feature-preview-indicator-container > .Header-link").click()
-        self.driver.find_element(By.CSS_SELECTOR, ".dropdown-signout").click()
+        wd = self.wd
+        self.open_home_page(wd, "https://github.com/")
+        self.login(wd, username="boriska67", password="Tashkent@67", sign_in_link="Sign in", username_field="login_field", password_field="password", sign_in_btn="commit")
+        self.open_project_page(wd, existing_project_link="#dashboard-repos-container > #repos-container .source .d-inline-flex")
+        self.create_new_branch(wd, branchname="new", Switch_branches_tags_dropdown="#branch-select-menu > .btn", create_branch_field="context-commitish-filter-field")
+        self.sign_out(wd, signout_dropdown=".js-feature-preview-indicator-container > .Header-link", signout_link=".dropdown-signout")
 
+    def sign_out(self, wd, signout_dropdown, signout_link):
+        # clicking dropdown
+        wd.find_element(By.CSS_SELECTOR, signout_dropdown).click()
+        # clicking sign out link
+        wd.find_element(By.CSS_SELECTOR, signout_link).click()
 
-    def teardown_method(self, method):
-        self.driver.quit()
+    def create_new_branch(self, wd, branchname, Switch_branches_tags_dropdown, create_branch_field):
+        wd.find_element(By.CSS_SELECTOR, Switch_branches_tags_dropdown).click()
+        wd.find_element(By.ID, create_branch_field).click()
+        wd.find_element(By.ID, create_branch_field).send_keys(branchname)
+        time.sleep(1)
+        wd.find_element(By.ID, create_branch_field).send_keys(Keys.ENTER)
+
+    def open_project_page(self, wd, existing_project_link):
+        wd.find_element(By.CSS_SELECTOR, existing_project_link).click()
+
+    def login(self, wd, username, password, sign_in_link, username_field, password_field, sign_in_btn):
+        wd.find_element(By.LINK_TEXT, sign_in_link).click()
+        wd.find_element(By.ID, username_field).send_keys(username)
+        wd.find_element(By.ID, password_field).click()
+        wd.find_element(By.ID, password_field).send_keys(password)
+        wd.find_element(By.NAME, sign_in_btn).click()
+
+    def open_home_page(self, wd, starting_page):
+        wd.get(starting_page)
+        # wd.set_window_size(1936, 1066)
+        wd.maximize_window()
+
+    def tearDown(self):
+        wd = self.wd
+        wd.quit()
+
 
 if __name__ == '__main__':
     unittest.main()
