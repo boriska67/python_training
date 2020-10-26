@@ -39,6 +39,13 @@
       </console-settings>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Boris\Documents\GitHub\python_training\test" />
+      <recent name="C:\Users\Boris\Documents\GitHub\python_training\fixture" />
+      <recent name="C:\Users\Boris\Documents\GitHub\python_training\model" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.pytest in test_create_git_branch.py">
     <configuration name="test_create_git_branch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
@@ -52,7 +59,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Boris\Documents\GitHub\python_training\test_create_git_branch.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Boris\Documents\GitHub\python_training\test\test_create_git_branch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +80,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_create_git_branch.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_create_git_branch.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
