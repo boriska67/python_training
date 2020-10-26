@@ -11,8 +11,8 @@ def app(request):
     return fixture
 
 def test_creategitbranch(app):
-    app.login(username="boriska67", password="Tashkent@67")
+    app.session.login(username="boriska67", password="Tashkent@67")
     app.create_new_branch(Branch(branchname="new"))
-    app.sign_out()
+    app.session.logout()
 
 
