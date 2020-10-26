@@ -14,6 +14,7 @@ class SessionHelper:
         wd.find_element_by_id("password").send_keys(password)
         wd.find_element_by_name("commit").click()
 
+
     def logout(self):
         wd = self.app.wd
         # clicking dropdown

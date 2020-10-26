@@ -12,7 +12,7 @@ def app(request):
 
 def test_creategitbranch(app):
     app.session.login(username="boriska67", password="Tashkent@67")
-    app.create_new_branch(Branch(branchname="new"))
+    app.branch.create(Branch(branchname="new"))
     app.session.logout()
 
 
