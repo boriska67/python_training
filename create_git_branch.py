@@ -2,6 +2,7 @@
 import pytest
 import unittest
 import time
+from branch import Branch
 import json
 from selenium import webdriver
 # from selenium.webdriver.firefox.webdriver import WebDriver
@@ -23,33 +24,36 @@ class TestCreategitbranch(unittest.TestCase):
     def test_creategitbranch(self):
         wd = self.wd
         self.open_home_page(wd, "https://github.com/")
-        self.login(wd, username="boriska67", password="Tashkent@67", sign_in_link="Sign in", username_field="login_field", password_field="password", sign_in_btn="commit")
-        self.open_project_page(wd, existing_project_link="#dashboard-repos-container > #repos-container .source .d-inline-flex")
-        self.create_new_branch(wd, branchname="new", Switch_branches_tags_dropdown="#branch-select-menu > .btn", create_branch_field="context-commitish-filter-field")
-        self.sign_out(wd, signout_dropdown=".js-feature-preview-indicator-container > .Header-link", signout_link=".dropdown-signout")
+        self.open_login_page(wd, sign_in_link="Sign in")
+        self.login(wd, username="boriska67", password="Tashkent@67")
+        self.open_project_page(wd)
+        self.create_new_branch(wd, Branch(branchname="new"))
+        self.sign_out(wd)
 
-    def sign_out(self, wd, signout_dropdown, signout_link):
+    def sign_out(self, wd):
         # clicking dropdown
-        wd.find_element(By.CSS_SELECTOR, signout_dropdown).click()
+        wd.find_element(By.CSS_SELECTOR, ".js-feature-preview-indicator-container > .Header-link").click()
         # clicking sign out link
-        wd.find_element(By.CSS_SELECTOR, signout_link).click()
+        wd.find_element(By.CSS_SELECTOR, ".dropdown-signout").click()
 
-    def create_new_branch(self, wd, branchname, Switch_branches_tags_dropdown, create_branch_field):
-        wd.find_element(By.CSS_SELECTOR, Switch_branches_tags_dropdown).click()
-        wd.find_element(By.ID, create_branch_field).click()
-        wd.find_element(By.ID, create_branch_field).send_keys(branchname)
+    def create_new_branch(self, wd, branch):
+        wd.find_element(By.CSS_SELECTOR, "#branch-select-menu > .btn").click()
+        wd.find_element(By.ID, "context-commitish-filter-field").click()
+        wd.find_element(By.ID, "context-commitish-filter-field").send_keys(branch.branchname)
         time.sleep(1)
-        wd.find_element(By.ID, create_branch_field).send_keys(Keys.ENTER)
+        wd.find_element(By.ID, "context-commitish-filter-field").send_keys(Keys.ENTER)
 
-    def open_project_page(self, wd, existing_project_link):
-        wd.find_element(By.CSS_SELECTOR, existing_project_link).click()
+    def open_project_page(self, wd):
+        wd.find_element(By.CSS_SELECTOR, "#dashboard-repos-container > #repos-container .source .d-inline-flex").click()
 
-    def login(self, wd, username, password, sign_in_link, username_field, password_field, sign_in_btn):
+    def open_login_page(self, wd, sign_in_link):
         wd.find_element(By.LINK_TEXT, sign_in_link).click()
-        wd.find_element(By.ID, username_field).send_keys(username)
-        wd.find_element(By.ID, password_field).click()
-        wd.find_element(By.ID, password_field).send_keys(password)
-        wd.find_element(By.NAME, sign_in_btn).click()
+
+    def login(self, wd, username, password):
+        wd.find_element(By.ID, "login_field").send_keys(username)
+        wd.find_element(By.ID, "password").click()
+        wd.find_element(By.ID, "password").send_keys(password)
+        wd.find_element(By.NAME, "commit").click()
 
     def open_home_page(self, wd, starting_page):
         wd.get(starting_page)
