@@ -26,3 +26,14 @@ class BranchHelper:
         time.sleep(1)
         wd.find_element_by_css_selector(".Box:nth-child(2) .btn-link > .octicon").click()
         time.sleep(1)
+
+    def open_gotofile_page(self):
+        wd = self.app.wd
+        wd.find_element_by_link_text("Go to file").click()
+
+    def gotofile(self):
+        wd = self.app.wd
+        self.open_project_page()
+        self.open_gotofile_page()
+        wd.find_element_by_css_selector("a.ml-2:nth-child(4)").click()
+        wd.find_element_by_link_text("python_training").click()

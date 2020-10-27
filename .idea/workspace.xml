@@ -28,7 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test_creategitbranch.py" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/selProject" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -48,7 +48,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test">
-    <configuration name="test_create_git_branch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,13 +60,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Boris\Documents\GitHub\python_training\test\test_create_git_branch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conftest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_go_to_file.test_create_git_branch" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_go_to_file.test_create_git_branch&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -117,11 +133,29 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_go_to_file.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_go_to_file.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test" />
+        <item itemvalue="Python.conftest" />
+        <item itemvalue="Python tests.pytest in test_go_to_file.py" />
+        <item itemvalue="Python tests.pytest for test_go_to_file.test_create_git_branch" />
         <item itemvalue="Python tests.pytest in test_delete_git_branch.py" />
-        <item itemvalue="Python.test_create_git_branch" />
       </list>
     </recent_temporary>
   </component>
@@ -145,42 +179,42 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="734" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1603752479760" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1603534214853">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1603780883629">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1603534214853" />
-    <state width="1899" height="263" key="GridCell.Tab.0.bottom" timestamp="1603763488137">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1603780883629" />
+    <state width="1899" height="322" key="GridCell.Tab.0.bottom" timestamp="1603782653768">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603763488137" />
-    <state width="1899" height="263" key="GridCell.Tab.0.center" timestamp="1603763488137">
+    <state width="1899" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603782653768" />
+    <state width="1899" height="322" key="GridCell.Tab.0.center" timestamp="1603782653768">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603763488137" />
-    <state width="1899" height="263" key="GridCell.Tab.0.left" timestamp="1603763488137">
+    <state width="1899" height="322" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603782653768" />
+    <state width="1899" height="322" key="GridCell.Tab.0.left" timestamp="1603782653768">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603763488137" />
-    <state width="1899" height="263" key="GridCell.Tab.0.right" timestamp="1603763488137">
+    <state width="1899" height="322" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603782653768" />
+    <state width="1899" height="322" key="GridCell.Tab.0.right" timestamp="1603782653768">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="263" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603763488137" />
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1603752602431">
+    <state width="1899" height="322" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603782653768" />
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1603782516332">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603752602431" />
-    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1603752602431">
+    <state width="1899" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603782516332" />
+    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1603782516332">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603752602431" />
-    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1603752602431">
+    <state width="1899" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603782516332" />
+    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1603782516332">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603752602431" />
-    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1603752602431">
+    <state width="1899" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603782516332" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1603782516332">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603752602431" />
+    <state width="1899" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603782516332" />
     <state x="461" y="169" key="SettingsEditor" timestamp="1603744464950">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -189,16 +223,5 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="803" y="310" width="873" height="430" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603612568514" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/test_create_git_branch.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
