@@ -13,7 +13,7 @@ class Application:
         self.wd.implicitly_wait(60)
         self.session = SessionHelper(self)
         self.branch = BranchHelper(self)
-        
+
     def open_home_page(self, starting_page):
         wd = self.wd
         wd.get(starting_page)
