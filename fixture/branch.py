@@ -17,6 +17,9 @@ class BranchHelper:
         time.sleep(1)
         wd.find_element_by_css_selector(".link-gray-dark:nth-child(1) > .text-gray-light").click()
         time.sleep(1)
+
+        # TEST
+        # w_el = wd.find_elements_by_css_selector('.branch-name')
         try:
             if len(wd.find_elements_by_link_text(branch.branchname)) > 0:
                 print("New branch found")

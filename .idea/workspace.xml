@@ -28,8 +28,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Giraffe" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/selProject" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -143,18 +143,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;--browser\u003dchrome&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_go_to_file.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.conftest" />
+      <item itemvalue="Python tests.pytest in test_create_git_branch.py" />
+      <item itemvalue="Python tests.pytest for test_go_to_file.test_create_git_branch" />
+      <item itemvalue="Python tests.pytest in test" />
+      <item itemvalue="Python tests.pytest in test_delete_git_branch.py" />
+      <item itemvalue="Python tests.pytest in test_go_to_file.py" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test" />
+        <item itemvalue="Python tests.pytest in test_go_to_file.py" />
         <item itemvalue="Python tests.pytest in test_delete_git_branch.py" />
         <item itemvalue="Python.conftest" />
-        <item itemvalue="Python tests.pytest in test_go_to_file.py" />
         <item itemvalue="Python tests.pytest for test_go_to_file.test_create_git_branch" />
       </list>
     </recent_temporary>
@@ -171,61 +179,72 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603534253479">
+    <state x="414" y="179" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603921475302">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603534253479" />
-    <state width="1267" height="466" key="DebuggerActiveHint" timestamp="1603841382752">
+    <state x="414" y="179" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603921475302" />
+    <state width="1470" height="466" key="DebuggerActiveHint" timestamp="1603912767425">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1267" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1603841382752" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1603831311507">
+    <state width="1470" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1603912767425" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1603919662327">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1603831311507" />
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom" timestamp="1603869426998">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1603919662327" />
+    <state width="1899" height="246" key="GridCell.Tab.0.bottom" timestamp="1603922239960">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603869426998" />
-    <state width="1899" height="352" key="GridCell.Tab.0.center" timestamp="1603869426998">
+    <state width="1899" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239960" />
+    <state width="1899" height="246" key="GridCell.Tab.0.center" timestamp="1603922239960">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603869426998" />
-    <state width="1899" height="352" key="GridCell.Tab.0.left" timestamp="1603869426998">
+    <state width="1899" height="246" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239960" />
+    <state width="1899" height="246" key="GridCell.Tab.0.left" timestamp="1603922239960">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603869426998" />
-    <state width="1899" height="352" key="GridCell.Tab.0.right" timestamp="1603869426998">
+    <state width="1899" height="246" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239960" />
+    <state width="1899" height="246" key="GridCell.Tab.0.right" timestamp="1603922239960">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603869426998" />
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom" timestamp="1603869426998">
+    <state width="1899" height="246" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239960" />
+    <state width="1899" height="259" key="GridCell.Tab.1.bottom" timestamp="1603922239956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603869426998" />
-    <state width="1899" height="352" key="GridCell.Tab.1.center" timestamp="1603869426998">
+    <state width="1899" height="259" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239956" />
+    <state width="1899" height="259" key="GridCell.Tab.1.center" timestamp="1603922239956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603869426998" />
-    <state width="1899" height="352" key="GridCell.Tab.1.left" timestamp="1603869426998">
+    <state width="1899" height="259" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239956" />
+    <state width="1899" height="259" key="GridCell.Tab.1.left" timestamp="1603922239956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603869426998" />
-    <state width="1899" height="352" key="GridCell.Tab.1.right" timestamp="1603869426998">
+    <state width="1899" height="259" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239956" />
+    <state width="1899" height="259" key="GridCell.Tab.1.right" timestamp="1603922239956">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="352" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603869426998" />
+    <state width="1899" height="259" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239956" />
     <state x="775" y="458" key="ReplaceDuplicatesPrompt" timestamp="1603825971441">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="775" y="458" key="ReplaceDuplicatesPrompt/0.0.1920.1050@0.0.1920.1050" timestamp="1603825971441" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1603744464950">
+    <state x="461" y="169" key="SettingsEditor" timestamp="1603921821064">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1603744464950" />
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1603921821064" />
     <state x="803" y="310" width="873" height="430" key="refactoring.ChangeSignatureDialog" timestamp="1603612568514">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="803" y="310" width="873" height="430" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603612568514" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fixture/branch.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

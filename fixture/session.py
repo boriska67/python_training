@@ -11,7 +11,6 @@ class SessionHelper:
         wd.find_element_by_id("password").click()
         wd.find_element_by_id("password").send_keys(password)
         wd.find_element_by_name("commit").click()
-        # TEST
         if self.is_logged_in_as(username):
             print("Logged as " + username)
             return True
