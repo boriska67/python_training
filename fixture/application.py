@@ -1,8 +1,6 @@
-
 # from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 # from selenium.webdriver.ie.webdriver import WebDriver
-
 from fixture.session import SessionHelper
 from fixture.branch import BranchHelper
 
@@ -13,6 +11,13 @@ class Application:
         self.wd.implicitly_wait(60)
         self.session = SessionHelper(self)
         self.branch = BranchHelper(self)
+
+    def is_valid(self):
+        try:
+            self.wd.current_url
+            return True
+        except:
+            return False
 
     def open_home_page(self, starting_page):
         wd = self.wd
