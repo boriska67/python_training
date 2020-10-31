@@ -31,3 +31,7 @@ class Application:
 
     def destroy(self):
         self.wd.quit()
+
+    def refresh_page(self):
+        wd = self.wd
+        wd.refresh()

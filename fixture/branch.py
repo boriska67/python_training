@@ -36,18 +36,21 @@ class BranchHelper:
         wd = self.app.wd
         wd.find_element_by_css_selector(".link-gray-dark:nth-child(1) > .text-gray-light").click()
         time.sleep(1)
-        try:
-            if len(wd.find_elements_by_link_text(branch.branchname)) > 0:
-                wd.find_element_by_css_selector(".Box:nth-child(2) .btn-link > .octicon").click()
-                time.sleep(1)
-        except NoSuchElementException:
-                print("No element found")
-        time.sleep(1)
-        try:
-            if len(wd.find_elements_by_css_selector(".Box:nth-child(2) .btn-link > .octicon")) > 0:
-                print("Unable to delete " + branch.branchname)
-        except NoSuchElementException:
-            print(branch.branchname + " was deleted.")
+
+        wd.find_element_by_link_text("python_training").click()
+
+        # try:
+        #     if len(wd.find_elements_by_link_text(branch.branchname)) > 0:
+        #         wd.find_element_by_css_selector(".Box:nth-child(2) .btn-link > .octicon").click()
+        #         time.sleep(1)
+        # except NoSuchElementException:
+        #         print("No element found")
+        # time.sleep(1)
+        # try:
+        #     if len(wd.find_elements_by_css_selector(".Box:nth-child(2) .btn-link > .octicon")) > 0:
+        #         print("Unable to delete " + branch.branchname)
+        # except NoSuchElementException:
+        #     print(branch.branchname + " was deleted.")
 
 
     def open_gotofile_page(self):

@@ -143,7 +143,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;--browser\u003dchrome&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_go_to_file.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -179,58 +179,66 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="179" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603921475302">
+    <state x="414" y="179" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603928266793">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="414" y="179" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603921475302" />
-    <state width="1470" height="466" key="DebuggerActiveHint" timestamp="1603912767425">
+    <state x="414" y="179" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603928266793" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604013822682">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1470" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1603912767425" />
+    <state x="690" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604013822682" />
+    <state width="1470" height="466" key="DebuggerActiveHint" timestamp="1604135370694">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1470" height="466" key="DebuggerActiveHint/0.0.1920.1050@0.0.1920.1050" timestamp="1604135370694" />
+    <state x="827" y="286" key="EnvironmentVariablesDialog" timestamp="1603922821200">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="827" y="286" key="EnvironmentVariablesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1603922821200" />
     <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1603919662327">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1603919662327" />
-    <state width="1899" height="246" key="GridCell.Tab.0.bottom" timestamp="1603922239960">
+    <state width="1899" height="307" key="GridCell.Tab.0.bottom" timestamp="1604137049067">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239960" />
-    <state width="1899" height="246" key="GridCell.Tab.0.center" timestamp="1603922239960">
+    <state width="1899" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604137049067" />
+    <state width="1899" height="307" key="GridCell.Tab.0.center" timestamp="1604137049067">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="246" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239960" />
-    <state width="1899" height="246" key="GridCell.Tab.0.left" timestamp="1603922239960">
+    <state width="1899" height="307" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604137049067" />
+    <state width="1899" height="307" key="GridCell.Tab.0.left" timestamp="1604137049067">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="246" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239960" />
-    <state width="1899" height="246" key="GridCell.Tab.0.right" timestamp="1603922239960">
+    <state width="1899" height="307" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604137049067" />
+    <state width="1899" height="307" key="GridCell.Tab.0.right" timestamp="1604137049067">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="246" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239960" />
-    <state width="1899" height="259" key="GridCell.Tab.1.bottom" timestamp="1603922239956">
+    <state width="1899" height="307" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604137049067" />
+    <state width="1899" height="259" key="GridCell.Tab.1.bottom" timestamp="1604136166431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="259" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239956" />
-    <state width="1899" height="259" key="GridCell.Tab.1.center" timestamp="1603922239956">
+    <state width="1899" height="259" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604136166431" />
+    <state width="1899" height="259" key="GridCell.Tab.1.center" timestamp="1604136166431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="259" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239956" />
-    <state width="1899" height="259" key="GridCell.Tab.1.left" timestamp="1603922239956">
+    <state width="1899" height="259" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604136166431" />
+    <state width="1899" height="259" key="GridCell.Tab.1.left" timestamp="1604136166431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="259" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239956" />
-    <state width="1899" height="259" key="GridCell.Tab.1.right" timestamp="1603922239956">
+    <state width="1899" height="259" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604136166431" />
+    <state width="1899" height="259" key="GridCell.Tab.1.right" timestamp="1604136166431">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1899" height="259" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1603922239956" />
-    <state x="775" y="458" key="ReplaceDuplicatesPrompt" timestamp="1603825971441">
+    <state width="1899" height="259" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604136166431" />
+    <state x="775" y="458" key="ReplaceDuplicatesPrompt" timestamp="1603997567737">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="775" y="458" key="ReplaceDuplicatesPrompt/0.0.1920.1050@0.0.1920.1050" timestamp="1603825971441" />
-    <state x="461" y="169" key="SettingsEditor" timestamp="1603921821064">
+    <state x="775" y="458" key="ReplaceDuplicatesPrompt/0.0.1920.1050@0.0.1920.1050" timestamp="1603997567737" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1604095226550">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1603921821064" />
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1604095226550" />
     <state x="803" y="310" width="873" height="430" key="refactoring.ChangeSignatureDialog" timestamp="1603612568514">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -240,9 +248,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fixture/branch.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/test/test_delete_git_branch.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

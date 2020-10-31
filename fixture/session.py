@@ -32,17 +32,21 @@ class SessionHelper:
         else:
             return False
 
+    def ensure_logout(self):
+        wd = self.app.wd
+        if len(self.is_logged_in()) > 0:
+            self.logout()
+
+    def is_logged_in(self):
+        wd = self.app.wd
+        return wd.find_elements_by_css_selector(".js-feature-preview-indicator-container > .Header-link")
+
     def logout(self):
         wd = self.app.wd
         # clicking dropdown
         wd.find_element_by_css_selector(".js-feature-preview-indicator-container > .Header-link").click()
         # clicking sign out link
         wd.find_element_by_css_selector(".dropdown-signout").click()
-
-    # def ensure_logout(self):
-    #     wd = self.app.wd
-    #     if self.is_logged_in():
-    #         self.logout()
 
     # def ensure_login(self, username, password):
     #     wd = self.app.wd
