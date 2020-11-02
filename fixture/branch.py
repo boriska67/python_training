@@ -36,6 +36,8 @@ class BranchHelper:
         wd = self.app.wd
         wd.find_element_by_css_selector(".link-gray-dark:nth-child(1) > .text-gray-light").click()
         time.sleep(1)
+        wd.find_element_by_css_selector(".Box:nth-child(2) .btn-link > .octicon").click()
+        time.sleep(1)
 
         wd.find_element_by_link_text("python_training").click()
 
